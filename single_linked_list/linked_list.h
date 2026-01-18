@@ -34,7 +34,7 @@ void print_list (struct node *head) {
     printf(" -----------------------\n");
     printf("|                       |\n");
     while (current != NULL) {
-        printf("| node : %d  | data : %d|\n", i, current->data);
+        printf("| node : %d  | data : %d  |\n", i, current->data);
         current = current->next; // move to next node
         i++;
     }
