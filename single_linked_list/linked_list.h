@@ -31,13 +31,13 @@ struct node* create_node(struct node * head) {
 void print_list (struct node *head) {
     struct node *current = head; // start of the head
     int i = 1;
-    printf(" _______________________\n");
+    printf(" -----------------------\n");
     printf("|                       |\n");
     while (current != NULL) {
         printf("| node : %d  | data : %d|\n", i, current->data);
         current = current->next; // move to next node
         i++;
     }
-    printf("|                         |\n");
-    printf(" ________________________\n");
+    printf("|                       |\n");
+    printf(" -----------------------\n");
 }
