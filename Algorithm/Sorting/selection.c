@@ -4,6 +4,9 @@ int main() {
     printf("enter the size of tthe array element :");
     scanf("%d", &n);
 
+
+/*Selection sort ; does sorting by selecting the a number and checking 
+whether any minimum is there and swap with that number  */
     int arr[n],i,j,k,temp;
     printf("\nenter the value for array element:");
     for (i=0; i<n;i++)
